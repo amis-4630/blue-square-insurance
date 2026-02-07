@@ -1,4 +1,4 @@
-# ADR-001: Adopt React for Frontend Development
+# ADR-001: React for Frontend Development
 
 ## Status
 
