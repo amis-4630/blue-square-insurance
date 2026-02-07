@@ -21,34 +21,53 @@ Our mission is to protect what matters most to our customers through innovative 
 
 ### Customer Experience
 
-- **Digital-First Platform** - Complete online policy management and claims processing
-- **Mobile Application** - iOS and Android apps for policy access and claims submission
-- **24/7 Customer Support** - Round-the-clock assistance through multiple channels
-- **Instant Quotes** - Real-time pricing and coverage options
-- **Self-Service Portal** - Account management, document access, and policy modifications
+- **Digital-First Platform** `[P1 - Critical]` - Complete online policy management and claims processing
+  - _Rationale: Essential for competitive positioning and customer retention in the digital insurance market_
+- **Mobile Application** `[P1 - Critical]` - iOS and Android apps for policy access and claims submission
+  - _Rationale: 80% of customers prefer mobile interactions; critical for market penetration_
+- **24/7 Customer Support** `[P2 - High]` - Round-the-clock assistance through multiple channels
+  - _Rationale: Differentiates from competitors and improves customer satisfaction scores_
+- **Instant Quotes** `[P1 - Critical]` - Real-time pricing and coverage options
+  - _Rationale: Industry standard expectation; directly impacts conversion rates_
+- **Self-Service Portal** `[P2 - High]` - Account management, document access, and policy modifications
+  - _Rationale: Reduces operational costs and empowers customer autonomy_
 
 ### Insurance Products
 
-- **Auto Insurance** - Comprehensive vehicle coverage with competitive rates
-- **Home Insurance** - Property protection for homeowners and renters
-- **Life Insurance** - Term and whole life insurance options
-- **Business Insurance** - Commercial coverage for small to medium enterprises
-- **Health Insurance** - Individual and family health coverage plans
+- **Auto Insurance** `[P1 - Critical]` - Comprehensive vehicle coverage with competitive rates
+  - _Rationale: Largest market segment with highest revenue potential and customer acquisition_
+- **Home Insurance** `[P1 - Critical]` - Property protection for homeowners and renters
+  - _Rationale: High-value policies with strong cross-selling opportunities to auto customers_
+- **Life Insurance** `[P2 - High]` - Term and whole life insurance options
+  - _Rationale: High lifetime value customers and strategic portfolio diversification_
+- **Business Insurance** `[P3 - Medium]` - Commercial coverage for small to medium enterprises
+  - _Rationale: Premium market segment with higher margins but requires specialized expertise_
+- **Health Insurance** `[P3 - Medium]` - Individual and family health coverage plans
+  - _Rationale: Market expansion opportunity but highly regulated with complex compliance requirements_
 
 ### Technology & Innovation
 
-- **AI-Powered Risk Assessment** - Advanced algorithms for accurate underwriting
-- **Automated Claims Processing** - Streamlined claims handling with faster payouts
-- **Fraud Detection** - Machine learning-based fraud prevention systems
-- **Data Analytics** - Predictive modeling for better risk management
-- **API Integration** - Seamless third-party integrations and partnerships
+- **AI-Powered Risk Assessment** `[P1 - Critical]` - Advanced algorithms for accurate underwriting
+  - _Rationale: Competitive advantage through better risk selection and pricing accuracy_
+- **Automated Claims Processing** `[P1 - Critical]` - Streamlined claims handling with faster payouts
+  - _Rationale: Reduces operational costs by 40% and improves customer satisfaction_
+- **Fraud Detection** `[P1 - Critical]` - Machine learning-based fraud prevention systems
+  - _Rationale: Industry average fraud costs are 5-10% of claims; essential for profitability_
+- **Data Analytics** `[P2 - High]` - Predictive modeling for better risk management
+  - _Rationale: Enables proactive risk mitigation and personalized product offerings_
+- **API Integration** `[P2 - High]` - Seamless third-party integrations and partnerships
+  - _Rationale: Accelerates feature development and enables ecosystem partnerships_
 
 ### Security & Compliance
 
-- **Data Protection** - Enterprise-grade security for customer information
-- **Regulatory Compliance** - Full adherence to insurance industry regulations
-- **GDPR Compliance** - Privacy protection and data rights management
-- **SOC 2 Certification** - Industry-standard security controls and practices
+- **Data Protection** `[P1 - Critical]` - Enterprise-grade security for customer information
+  - _Rationale: Regulatory requirement and fundamental customer trust prerequisite_
+- **Regulatory Compliance** `[P1 - Critical]` - Full adherence to insurance industry regulations
+  - _Rationale: Legal requirement for operating license; non-compliance risks business closure_
+- **GDPR Compliance** `[P1 - Critical]` - Privacy protection and data rights management
+  - _Rationale: Legal requirement in applicable jurisdictions with significant financial penalties_
+- **SOC 2 Certification** `[P2 - High]` - Industry-standard security controls and practices
+  - _Rationale: B2B partnership requirement and competitive differentiator for enterprise clients_
 
 ## Roadmap
 
@@ -130,11 +149,11 @@ Our mission is to protect what matters most to our customers through innovative 
 
 ### Infrastructure Decisions
 
-- [IDR-001: Container Orchestration](docs/idr/001-container-orchestration.md)
-- [IDR-002: Monitoring and Observability](docs/idr/002-monitoring-observability.md)
-- [IDR-003: CI/CD Pipeline Design](docs/idr/003-cicd-pipeline-design.md)
-- [IDR-004: Data Backup and Recovery](docs/idr/004-data-backup-recovery.md)
-- [IDR-005: Security Infrastructure](docs/idr/005-security-infrastructure.md)
+- [ADR-006: Container Orchestration](docs/adr/006-container-orchestration.md)
+- [ADR-007: Monitoring and Observability](docs/adr/007-monitoring-observability.md)
+- [ADR-008: CI/CD Pipeline Design](docs/adr/008-cicd-pipeline-design.md)
+- [ADR-009: Data Backup and Recovery](docs/adr/009-data-backup-recovery.md)
+- [ADR-010: Security Infrastructure](docs/adr/010-security-infrastructure.md)
 
 ## Getting Started
 
